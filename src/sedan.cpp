@@ -34,7 +34,7 @@ double Sedan::get_weight()
 
 double Sedan::get_wheel_radius()
 {
-    return 0.3; // meget simpel implementation.
+    return 0.3; // Virkelig simpel implementation. Det er nok ikke helt urealistisk.
 }
 
 double Sedan::get_current_gear_ratio()
