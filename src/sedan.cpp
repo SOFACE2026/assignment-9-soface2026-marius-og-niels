@@ -24,7 +24,7 @@ void Sedan::shift_down()
 
 double Sedan::get_torque(double engine_rpm, double throttle)
 {
-    return engine_rpm * throttle * 100;
+    return 1440.0 * throttle;
 }
 
 double Sedan::get_weight()
