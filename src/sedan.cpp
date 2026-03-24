@@ -10,31 +10,31 @@ Sedan::Sedan() : current_gear(0)
 
 void Sedan::shift_up()
 {
-    if (current_gear < 6) {
+    if (current_gear < 6) { // meget simpel implementation.
         current_gear++;
     }
 }
 
 void Sedan::shift_down()
 {
-    if (current_gear > 0){
+    if (current_gear > 0){ // meget simpel implementation.
         current_gear--;
     }
 }
 
 double Sedan::get_torque(double engine_rpm, double throttle)
 {
-    return 1440.0 * throttle;
+    return engine_rpm * throttle;
 }
 
 double Sedan::get_weight()
 {
-    return 1500;
+    return 2000; // meget simpel implementation.
 }
 
 double Sedan::get_wheel_radius()
 {
-    return 0.3;
+    return 0.3; // meget simpel implementation.
 }
 
 double Sedan::get_current_gear_ratio()
