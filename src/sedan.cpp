@@ -29,7 +29,7 @@ double Sedan::get_torque(double engine_rpm, double throttle)
 
 double Sedan::get_weight()
 {
-    return 2000; // meget simpel implementation.
+    return 1500; // meget simpel implementation.
 }
 
 double Sedan::get_wheel_radius()
